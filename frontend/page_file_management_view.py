@@ -98,13 +98,16 @@ class PageFileManagementView(BasePageView, Ui_file_management_page):
         self.btn_automatic_save.clicked.connect(
             partial(self.toggle_save_mode, is_automatic=True))
         self.btn_manual_save.clicked.connect(
+
+
+            
             partial(self.toggle_save_mode, is_automatic=False))
         
         # Connect the controller's signals to the view's slots
         self.controller.sig_folder_changed.connect(
             self.le_current_folder.setText
         )
-        
+
     def connect_signals_to_actions(self):
         """
         Connect signals received by this view to their corresponding actions.
