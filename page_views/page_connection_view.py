@@ -47,6 +47,14 @@ class PageConnectionView(BasePageView, Ui_page_connection_mainUI):
         # Connect the deleting of the controller to the correct slot
         self.controller.destroyed.connect(self.on_controller_deleted)
 
+    def on_controller_created(self):
+        """ Define what the view should do if the controller is created while
+        the view still exists
+        """
+        super().on_controller_created()
+        # Load the page when the controller is created
+        self.load_page()
+
     def on_controller_deleted(self):
         """ Define what the view should do if the controller is deleted while
         the view still exists

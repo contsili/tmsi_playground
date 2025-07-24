@@ -106,6 +106,7 @@ class WorkflowButton(QPushButton):
 
     def connect_signals_to_actions(self):
         """Connect signals to actions"""
+        
         pass
 
     def disconnect_signals_from_actions(self):
