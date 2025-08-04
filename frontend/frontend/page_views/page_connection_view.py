@@ -13,6 +13,9 @@ from application.Enums.sub_page_enums import (SubPageTypeEnum,
                                               SUB_PAGE_MAP)
 
 
+
+
+
 class PageConnectionView(BasePageView, Ui_page_connection_mainUI):
     """ Page Connection View consists of subpages,
     as defined in SUB_PAGE_MAP, and handles UI switching between the
