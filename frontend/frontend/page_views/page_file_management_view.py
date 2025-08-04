@@ -11,6 +11,8 @@ from application.Controllers.page_controllers.page_file_management_controller \
     import PageFileManagementController
 
 
+
+
 class PageFileManagementView(BasePageView, Ui_file_management_page):
     """
     View class for the File Management page.
