@@ -94,6 +94,8 @@ class WorkflowButton(QPushButton):
         content_layout.addWidget(text_frame)
         frame_workflow_layout.setLayout(content_layout)
 
+        
+
         container_layout.addWidget(frame_workflow_layout)
         frame_workflow_container.setLayout(container_layout)
 

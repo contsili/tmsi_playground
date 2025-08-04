@@ -28,6 +28,9 @@ class PageConnectionView(BasePageView, Ui_page_connection_mainUI):
         belong to the connection page.
     """
 
+
+
+
     def __init__(self):
         """ Initialize the PageConnectionView
 
