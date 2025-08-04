@@ -14,6 +14,9 @@ from application.Enums.sub_page_enums import SubPageTypeEnum
 from application.Constants.device_constants import MAX_BASE_STATIONS_SUPPORTED
 
 
+
+
+
 class SubPageConnectionBaseStationView(BasePageView,
                                        Ui_sub_page_connection_base_station):
     """
